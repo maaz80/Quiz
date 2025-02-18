@@ -58,6 +58,10 @@ The following scripts are available:
 2. Open `http://localhost:5173/` in your browser.
 3. Click **Start Quiz** to begin or **Scoreboard** to view previous scores.
 
+## Deployment link
+- https://assignquiz.netlify.app/
+
+
 ## Package Details
 Here is a brief explanation of the main dependencies used in this project:
 
