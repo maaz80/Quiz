@@ -24,7 +24,7 @@ const Timer = ({ timeLimit, onTimeUp }) => {
     return `${seconds}s`;
   };
 
-  return <div className="text-red-500 font-bold">Time Left: {formatTime(time)}</div>;
+  return <div className="text-red-500 font-bold text-xs md:text-base">Time Left: {formatTime(time)}</div>;
 };
 
 export default Timer;

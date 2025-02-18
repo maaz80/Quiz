@@ -11,7 +11,7 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl text-center lin md:text-4xl font-bold text-blue-600">
+        <h1 className="text-xl md:text-4xl font-bold text-blue-600">
           {/* Animations using react-type-animation  */}
           <TypeAnimation
             sequence={[
@@ -30,7 +30,7 @@ const Home = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-lg text-gray-600 mt-2"
+          className="text-sm md:text-lg text-gray-600 mt-2"
         >
           Test your knowledge with fun quizzes!
         </motion.p>
@@ -45,7 +45,7 @@ const Home = () => {
         {/* Buttons  */}
         <Link to="/quiz">
           <motion.button
-            className="bg-blue-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-blue-700 transition"
+            className="bg-blue-500 text-white text-sm md:text-base px-2 md:px-6 py-1.5 md:py-3 rounded-md shadow-md hover:bg-blue-700 transition"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -54,7 +54,7 @@ const Home = () => {
         </Link>
         <Link to="/scoreboardpage">
           <motion.button
-            className="ml-4 bg-green-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-green-700 transition"
+            className="ml-4 bg-green-500 text-white text-sm md:text-base px-2 md:px-6 py-1.5 md:py-3 rounded-md shadow-md hover:bg-green-700 transition"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

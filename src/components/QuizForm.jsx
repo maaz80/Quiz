@@ -63,13 +63,13 @@ const QuizForm = ({ questions, onQuizComplete }) => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <nav className="bg-white shadow-lg p-4 fixed top-0 w-full z-10">
+      <nav className="bg-white shadow-lg p-2 md:p-4 fixed top-0 w-full z-10">
         <div className="container mx-auto flex justify-between items-center">
           <Timer timeLimit={30 * (questions.length)} onTimeUp={handleSubmit} className="text-xl font-bold" />
-          <div className="text-xl font-bold">Score: {score}/{questions.length}</div>
+          <div className="text-xs md:text-xl font-bold">Score: {score}/{questions.length}</div>
           <button
             onClick={handleSubmit}
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+            className="bg-blue-500 text-white text-sm md:text-base px-2 md:px-4 py-1 md:py-2 rounded-md hover:bg-blue-600"
           >
             Submit Quiz
           </button>
