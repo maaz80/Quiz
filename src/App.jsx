@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Quiz from "./pages/Quiz";
 import ScorePage from "./pages/ScorePage";
-import ScoreboardPage from "./pages/ScoreboardPage";
+import ScoreBoardPage from "./pages/ScoreBoardPage";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/quiz" element={<Quiz />} />
-          <Route path="/scoreboardpage" element={<ScoreboardPage/>} />
+          <Route path="/scoreboardpage" element={<ScoreBoardPage/>} />
           <Route path="/scorepage" element={<ScorePage />} />
         </Routes>
       </div>

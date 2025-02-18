@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getAttempts } from "../utils/indexedDB";
 import Scoreboard from "../components/ScoreBoard";
 
-const ScoreboardPage = () => {
+const ScoreBoardPage = () => {
   const [attempts, setAttempts] = useState([]);
 
   useEffect(() => {
@@ -20,4 +20,4 @@ const ScoreboardPage = () => {
   );
 };
 
-export default ScoreboardPage;
+export default ScoreBoardPage;
