@@ -52,7 +52,7 @@ const Home = () => {
             Start Quiz
           </motion.button>
         </Link>
-        <Link to="/scoreboard">
+        <Link to="/scoreboardpage">
           <motion.button
             className="ml-4 bg-green-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-green-700 transition"
             whileHover={{ scale: 1.05 }}
