@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getAttempts } from "../utils/indexedDB";
 
-const Scoreboard = () => {
+const ScoreBoard = () => {
   const [attempts, setAttempts] = useState([]);
 
   // Fetching data from indexedDB
@@ -32,4 +32,4 @@ const Scoreboard = () => {
   );
 };
 
-export default Scoreboard;
+export default ScoreBoard;

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getAttempts } from "../utils/indexedDB";
-import Scoreboard from "../components/ScoreBoard";
+import ScoreBoard from "../components/ScoreBoard";
 
 const ScoreBoardPage = () => {
   const [attempts, setAttempts] = useState([]);
@@ -15,7 +15,7 @@ const ScoreBoardPage = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <Scoreboard/>
+      <ScoreBoard/>
     </div>
   );
 };
