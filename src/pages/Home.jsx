@@ -11,7 +11,7 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-4xl font-bold text-blue-600">
+        <h1 className="text-5xl text-center lin md:text-4xl font-bold text-blue-600">
           {/* Animations using react-type-animation  */}
           <TypeAnimation
             sequence={[
