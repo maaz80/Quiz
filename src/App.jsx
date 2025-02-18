@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Quiz from "./pages/Quiz";
-import ScoreboardPage from "./pages/ScoreboardPage";
 import ScorePage from "./pages/ScorePage";
+import ScoreboardPage from "./pages/ScoreboardPage";
 
 const App = () => {
   return (
